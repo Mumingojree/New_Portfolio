@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MUMIN — Frontend Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- SYSTEM READOUT -->
+  <div class="system-readout" id="sysReadout">
+    SYS::ONLINE<br>
+    USER::AUTHENTICATED<br>
+    <span id="sysTime">00:00:00</span>
+  </div>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#home" class="nav-logo">MU<span>.</span>MIN</a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-status">
+      <div class="status-dot"></div>
+      AVAILABLE FOR WORK
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-left">
+      <!-- <div class="hero-tag">Frontend Developer — Unit v3.0</div> -->
+      <div class="hero-name">MUMIN MOHI UD DIN</div>
+      <!-- <div class="hero-name-sub"></div> -->
+      <p class="hero-desc">
+        Experienced frontend developer with a passion for crafting
+        visually precise and user-centered web interfaces using
+        React.js, Tailwind, JavaScript, PHP & MySQL.
+      </p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn-primary"><span>Hire Me</span></a>
+        <a href="https://drive.google.com/file/d/1ewcvYAYVUhLf_8Qik6WS9Ir-l9B2SSq8/view?usp=drive_link" class="btn-secondary" target="_blank">Download CV</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="mech-graphic">
+        <!-- Cross hairs -->
+        <div class="mech-cross"></div>
+        <!-- Rings -->
+        <div class="mech-ring mech-ring-1"></div>
+        <div class="mech-ring mech-ring-2"></div>
+        <div class="mech-ring mech-ring-3"></div>
+        <!-- Square border -->
+        <div class="mech-corners">
+          <div class="corner-dot"></div>
+          <div class="corner-dot"></div>
+          <div class="corner-dot"></div>
+          <div class="corner-dot"></div>
+        </div>
+        <!-- Data readouts -->
+        <div class="mech-data" style="top:10px; left:50%; transform:translateX(-50%);">
+          <div class="mech-data-item">STATUS <div class="mech-data-bar"><div class="mech-data-bar-fill" style="width:80%"></div></div></div>
+        </div>
+        <div class="mech-data" style="bottom:10px; left:50%; transform:translateX(-50%);">
+          <div class="mech-data-item">OUTPUT <div class="mech-data-bar"><div class="mech-data-bar-fill" style="animation-delay:0.7s; width:60%"></div></div></div>
+        </div>
+        <!-- Center -->
+        <div class="mech-center">
+          <div class="mech-center-text">Frontend</div>
+          <div class="mech-center-num">3+</div>
+          <div class="mech-center-text">Years</div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <div class="scroll-text">Scroll Down</div>
+    </div>
+  </section>
+
+  <!-- TICKER -->
+  <div class="ticker">
+    <div class="ticker-inner">
+      <div class="ticker-item">React.js <span>■</span></div>
+      <div class="ticker-item">JavaScript <span>■</span></div>
+      <div class="ticker-item">Tailwind CSS <span>■</span></div>
+      <div class="ticker-item">PHP <span>■</span></div>
+      <div class="ticker-item">MySQL <span>■</span></div>
+      <div class="ticker-item">Bootstrap <span>■</span></div>
+      <div class="ticker-item">Frontend Dev <span>■</span></div>
+      <div class="ticker-item">UI Design <span>■</span></div>
+      <div class="ticker-item">React.js <span>■</span></div>
+      <div class="ticker-item">JavaScript <span>■</span></div>
+      <div class="ticker-item">Tailwind CSS <span>■</span></div>
+      <div class="ticker-item">PHP <span>■</span></div>
+      <div class="ticker-item">MySQL <span>■</span></div>
+      <div class="ticker-item">Bootstrap <span>■</span></div>
+      <div class="ticker-item">Frontend Dev <span>■</span></div>
+      <div class="ticker-item">UI Design <span>■</span></div>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-header reveal">
+      <span class="section-num">01</span>
+      <div class="section-line"></div>
+      <h2 class="section-title">About Me</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>
+          I am a passionate and driven Frontend Web Developer with a strong foundation
+          in modern web technologies. With a keen eye for detail and a deep understanding
+          of user experience, I am dedicated to building responsive, dynamic, and
+          user-friendly websites and applications.
+        </p>
+        <p>
+          My approach combines technical precision with creative thinking — every project
+          is an opportunity to push the boundaries of what's possible in the browser.
+        </p>
+        <div class="about-stats">
+          <div class="stat-box reveal reveal-delay-1">
+            <div class="stat-num">3+</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+          <div class="stat-box reveal reveal-delay-2">
+            <div class="stat-num">3</div>
+            <div class="stat-label">Projects Shipped</div>
+          </div>
+          <div class="stat-box reveal reveal-delay-3">
+            <div class="stat-num">7+</div>
+            <div class="stat-label">Technologies</div>
+          </div>
+          <div class="stat-box reveal reveal-delay-1">
+            <div class="stat-num">100%</div>
+            <div class="stat-label">Dedication</div>
+          </div>
+        </div>
+      </div>
+      <div class="skills-panel reveal reveal-delay-2">
+        <div class="skills-panel-label">System Capabilities</div>
+
+        <div class="skill-group">
+          <div class="skill-group-title">Frontend</div>
+          <div class="skill-row">
+            <span class="skill-name">HTML/CSS</span>
+            <div class="skill-bar"><div class="skill-fill" data-width="95"></div></div>
+            <span class="skill-percent">95%</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-name">JavaScript</span>
+            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+            <span class="skill-percent">85%</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-name">React.js</span>
+            <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+            <span class="skill-percent">80%</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-name">Bootstrap</span>
+            <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+            <span class="skill-percent">88%</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-name">Tailwind</span>
+            <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
+            <span class="skill-percent">82%</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-group-title">Backend</div>
+          <div class="skill-row">
+            <span class="skill-name">PHP</span>
+            <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+            <span class="skill-percent">70%</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-name">MySQL</span>
+            <div class="skill-bar"><div class="skill-fill" data-width="65"></div></div>
+            <span class="skill-percent">65%</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-name">Python</span>
+            <div class="skill-bar"><div class="skill-fill" data-width="55"></div></div>
+            <span class="skill-percent">55%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-header reveal">
+      <span class="section-num">02</span>
+      <div class="section-line"></div>
+      <h2 class="section-title">Projects</h2>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <div class="project-corner project-corner-tl"></div>
+        <div class="project-corner project-corner-br"></div>
+        <div class="project-num">PROJECT // 001</div>
+        <div class="project-title">Tic Tac Toe</div>
+        <div class="project-tags">
+          <span class="project-tag">HTML</span>
+          <span class="project-tag">CSS</span>
+          <span class="project-tag">JavaScript</span>
+        </div>
+        <p class="project-desc">
+          A fully interactive Tic Tac Toe game with clean game logic,
+          win detection, and smooth UI interactions.
+        </p>
+        <a href="https://mumingojree.github.io/tictactoe_recreated/" class="project-link" target="_blank">View Project</a>
+      </div>
+      <div class="project-card reveal reveal-delay-1">
+        <div class="project-corner project-corner-tl"></div>
+        <div class="project-corner project-corner-br"></div>
+        <div class="project-num">PROJECT // 002</div>
+        <div class="project-title">To-Do List</div>
+        <div class="project-tags">
+          <span class="project-tag">HTML</span>
+          <span class="project-tag">CSS</span>
+          <span class="project-tag">JavaScript</span>
+        </div>
+        <p class="project-desc">
+          A productivity-focused To-Do application with task management,
+          filtering, and local storage persistence.
+        </p>
+        <a href="https://mumingojree.github.io/To-Do-list/" class="project-link" target="_blank">View Project</a>
+      </div>
+      <div class="project-card reveal reveal-delay-2">
+        <div class="project-corner project-corner-tl"></div>
+        <div class="project-corner project-corner-br"></div>
+        <div class="project-num">PROJECT // 003</div>
+        <div class="project-title">Quiz App</div>
+        <div class="project-tags">
+          <span class="project-tag">HTML</span>
+          <span class="project-tag">CSS</span>
+          <span class="project-tag">JavaScript</span>
+        </div>
+        <p class="project-desc">
+          An engaging quiz application with multiple categories, score
+          tracking, and dynamic question rendering.
+        </p>
+        <a href="https://mumingojree.github.io/Quiz-App/" class="project-link" target="_blank">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-header reveal">
+      <span class="section-num">03</span>
+      <div class="section-line"></div>
+      <h2 class="section-title">Get in Touch</h2>
+    </div>
+    <div class="contact-grid">
+      <div class="reveal">
+        <div class="contact-info">
+          <h3>Let's Build<br>Something Together.</h3>
+          <p>
+            Have a project in mind? I'd love to hear about it.
+            Send a message and let's talk about how we can make
+            something great.
+          </p>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-icon">✉</div>
+          <div>
+            <div class="contact-detail-label">Email</div>
+            <div class="contact-detail-value">muminguroo231826@gmail.com</div>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-icon">☏</div>
+          <div>
+            <div class="contact-detail-label">Phone</div>
+            <div class="contact-detail-value">+91 9541 511931</div>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-icon">◈</div>
+          <div>
+            <div class="contact-detail-label">Location</div>
+            <div class="contact-detail-value">India</div>
+          </div>
+        </div>
+      </div>
+      <div class="reveal reveal-delay-2">
+      <form class="contact-form" action="https://formspree.io/f/mjgeoyrk" method="POST">
+  <div class="form-group">
+    <label class="form-label">Name</label>
+    <input type="text" name="name" class="form-input" placeholder="Your name" required />
+  </div>
+  <div class="form-group">
+    <label class="form-label">Email</label>
+    <input type="email" name="email" class="form-input" placeholder="your@email.com" required />
+  </div>
+  <div class="form-group">
+    <label class="form-label">Message</label>
+    <textarea name="message" class="form-textarea" placeholder="Tell me about your project..." required></textarea>
+  </div>
+  <button type="submit" class="form-submit"><span>Send Message</span></button>
+</form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">MU<span>.</span>MIN</div>
+    <div class="footer-copy">© 2025 Mumin Mohi Ud Din — All Rights Reserved</div>
+    <div class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+</html>
